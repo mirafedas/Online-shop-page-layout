@@ -1,0 +1,13 @@
+@media (min-width: 720px) {
+    .main-content-container {
+        @include flex-wrap;
+
+        .image-container, .item-info-container {
+            width: 40%;
+        }
+
+        .image-container {
+            margin-right: 20px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@mixin select-triangle {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: $select-triangle-color transparent transparent transparent;
+}
+
+@mixin flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin button {
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+@mixin big-button {
+    height: 50px;
+    text-transform: uppercase;
+}
